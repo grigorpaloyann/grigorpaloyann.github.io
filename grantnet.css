@@ -1,0 +1,378 @@
+body
+{ 
+       box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-image:url(logom.jpg);
+        background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+        max-width: 1500px;
+    min-width: 320px;
+    
+}
+
+
+#grantnet {
+   
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  background-color: white;
+    border-radius: 25px;
+
+    
+}
+
+li
+{
+    display: inline-block;
+    
+}
+
+.divg a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a
+{
+    
+     -webkit-transition: 0.5s;
+  transition: 1.5s;
+  outline: none;
+    
+}
+li a:hover {
+  background-color: #FF7709;
+    color: white;
+   border-radius: 15px;
+}
+li a:active {
+  background-color: white;
+    color: #ff7709;
+}
+
+.div1
+{
+    display: inline-block;
+   
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+.divg
+{    vertical-align:top;
+    text-align: center;
+    display:inline-block;
+    
+    
+    
+}
+.img1
+{
+    width: 90px;
+    height: 50px;
+    border-radius: 25px;
+  
+ 
+    
+}
+.list
+{
+   
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+         -webkit-transition: 0.5s;
+  transition: 1.5s;
+  outline: none;
+     
+    
+}
+.list:hover
+{
+   
+background-color:#ff7709;
+    color: white;
+    border-radius: 15px;
+    
+}
+.lists
+{
+    
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.lists a
+{
+    
+      color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+         -webkit-transition: 0.5s;
+  transition: 1.5s;
+  outline: none;
+    
+}
+.list:hover .lists
+
+{
+    
+    display: block;
+    position: absolute;
+    
+}
+.log
+{
+    font-size: 20px;
+    padding: 0 0 0 10;
+    
+    
+}
+
+
+
+
+
+
+
+.conteiner
+{
+
+    
+
+   margin: 0 auto;
+ max-width: 1300px;
+   
+
+    
+}
+.conteiner img
+{
+    
+    width: 100%;
+     border-radius: 25px;
+   
+}
+.mySlides
+{
+    
+    
+    animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    
+}
+
+
+.divw
+{
+    
+    
+    background-color:;
+    height: 100px;
+    
+    
+}
+.divw1
+{
+    
+    margin-top: 10px;
+    background-color:;
+    height: 0%;
+    text-align: center;
+   color: #3E474F;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.fixed a
+{
+   
+    position: fixed;
+
+    right: 0;
+    top: 80px;
+    width: 120px;
+    height: 70px;;
+      white-space: nowrap; 
+font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: white;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: #EAA121;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+
+
+.fixed a:hover
+{   
+    width: 320px;
+    transition: 0.5s;
+    
+    
+}
+.fixed img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+.fixed2 a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 160px;
+    width: 120px;
+    height: 70px;
+        white-space: nowrap; 
+
+font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: black;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.fixed2 a:hover
+{   
+    width: 320px;
+    transition: 0.5s;
+    
+    
+}
+.fixed2 img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+.fixed3 a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 240px;
+    width: 120px;
+    height: 70px;
+        white-space: nowrap; 
+
+font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: white;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: #F47022;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.fixed3 a:hover
+{   
+    width: 320px;
+    transition: 0.5s;
+    
+    
+}
+.fixed3 img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+.fixed4 a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 480px;
+    width: 120px;
+    height: 70px;
+        white-space: nowrap; 
+
+font-size: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: black;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.fixed4 a:hover
+{   
+    width: 320px;
+    transition: 0.5s;
+    
+    
+}
+.fixed4 img
+{
+    height: 65px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+.contact
+
+{   text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    vertical-align: bottom;
+    
+}
+table
+{
+    width: 100%;
+   margin: 20px;
+    text-align: center
+}
+
+
+.copy
+{
+    
+    
+    text-align: center;
+        font-size: 20px;
+    margin: 15px;
+}

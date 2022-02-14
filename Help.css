@@ -1,0 +1,384 @@
+body
+{ 
+       box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-image:url(../Home/cabel.jpg);
+        background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+        max-width: 1200px;
+    min-width: 320px;
+    
+}
+
+
+#grantnet {
+   
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+    
+}
+
+li
+{
+    display: inline-block;
+    
+}
+
+.divg a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a
+{
+    
+     -webkit-transition: 0.5s;
+  transition: 1.5s;
+  outline: none;
+    
+}
+li a:hover {
+  background-color: #FF7709;
+    color: white;
+   border-radius: 15px;
+}
+li a:active {
+  background-color: white;
+    color: #ff7709;
+}
+
+.div1
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+
+
+.divg
+{    vertical-align:top;
+    text-align: center;
+    display:inline-block;
+    
+    
+    
+}
+.img1
+{
+    width: 90px;
+    height: 50px;
+  
+ 
+    
+}
+.list
+{
+   
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+         -webkit-transition: 0.5s;
+  transition: 1.5s;
+  outline: none;
+     
+    
+}
+.list:hover
+{
+   
+background-color:#ff7709;
+    color: white;
+    
+}
+.lists
+{
+    
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.lists a
+{
+    
+      color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+         -webkit-transition: 0.5s;
+  transition: 1.5s;
+  outline: none;
+    
+}
+.list:hover .lists
+
+{
+    
+    display: block;
+    position: absolute;
+    
+}
+
+.log
+{
+    font-size: 20px;
+    padding: 0 0 0 10;
+    
+    
+}
+
+.fixed a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 80px;
+    width: 8%;
+    height: 10%;
+      white-space: nowrap; 
+font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: white;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: #EAA121;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+
+
+.fixed a:hover
+{   
+    width: 20%;
+    transition: 0.5s;
+    
+    
+}
+.fixed img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+.fixed2 a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 160px;
+    width: 8%;
+    height: 10%;
+        white-space: nowrap; 
+
+font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: black;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.fixed2 a:hover
+{   
+    width: 20%;
+    transition: 0.5s;
+    
+    
+}
+.fixed2 img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+.fixed3 a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 240px;
+    width: 8%;
+    height: 10%;
+        white-space: nowrap; 
+
+font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: white;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: #F47022;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.fixed3 a:hover
+{   
+    width: 20%;
+    transition: 0.5s;
+    
+    
+}
+.fixed3 img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+.fixed4 a
+{
+   
+    position: fixed;
+    right: 0;
+    top: 320px;
+    width: 8%;
+    height: 10%;
+        white-space: nowrap; 
+
+font-size: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    text-decoration: none;
+  color: black;
+    transition: 1.5s;
+    border-radius: 30px;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.fixed4 a:hover
+{   
+    width: 20%;
+    transition: 0.5s;
+    
+    
+}
+.fixed4 img
+{
+    height: 65px;
+    width: 60px;
+    border-radius: 30px 30px;
+    
+    
+}
+
+
+div.call a
+{
+    
+    color: white;
+    background-color: black;
+    
+}
+div.call a:hover
+{
+    
+    color: black;
+    background-color: orangered;
+    padding: 15 0;
+    
+}
+
+
+
+.call
+{
+    margin-top: 100%;
+    
+    
+    
+}
+
+.conteiner
+{
+
+    
+
+   margin: 0 auto;
+ max-width: 1300px;
+   
+
+    
+}
+.conteiner img
+{
+    
+    width: 100%;
+     border-radius: 25px;
+   
+}
+.mySlides
+{
+    
+    
+    animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    
+}
+
+
+
+
+
+
+.conteiner1
+{
+
+    
+
+   margin: 0 auto;
+ max-width: 1300px;
+   
+
+    
+}
+.conteiner1 img
+{
+    
+    width: 100%;
+     border-radius: 25px;
+   
+}
+.mySlides1
+{
+    
+    
+    animation:fading 5s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+    
+}
+
+
+
+
+
